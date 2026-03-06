@@ -11,16 +11,11 @@
   ],
   "require": {
     "php": "^8.0",
-    "illuminate/support": "^8.0|^9.0|^10.0|^11.0"
+    "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0"
   },
   "autoload": {
     "psr-4": {
       "Kartovitskii\\Laracolor\\": "src/"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Kartovitskii\\Laracolor\\Tests\\": "tests/"
     }
   },
   "extra": {
