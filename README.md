@@ -90,14 +90,14 @@ $warm = Laracolor::setPalette('warm')->fromString('user3');
 
 ## 📚 Документация
 
-### `fromString(string $string): string`
+#### `fromString(string $string): string`
 
 Генерирует HEX-цвет на основе строки.
 ```php
 $hex = Laracolor::fromString('hello world'); // #c4d4b8
 ```
 
-### `toRgb(string $string): array`
+#### `toRgb(string $string): array`
 
 Возвращает RGB значения.
 ```php
@@ -105,7 +105,7 @@ $rgb = Laracolor::toRgb('hello world');
 // ['red' => 196, 'green' => 212, 'blue' => 184]
 ```
 
-### `toHsl(string $string): array`
+#### `toHsl(string $string): array`
 
 Возвращает HSL значения.
 ```php
@@ -115,7 +115,7 @@ $hsl = Laracolor::toHsl('hello world');
 
 ### Дополнительные методы
 
-### `getContrastColor(string $string): string`
+#### `getContrastColor(string $string): string`
 
 Возвращает черный или белый цвет для контрастного текста.
 ```php
@@ -124,7 +124,7 @@ $textColor = Laracolor::getContrastColor('user');
 // Используйте $textColor для текста на фоне $bgColor
 ```
 
-### `getGradient(string $string, int $steps = 5): array`
+#### `getGradient(string $string, int $steps = 5): array`
 
 Генерирует градиент из указанного количества цветов.
 ```php
