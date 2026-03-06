@@ -1,0 +1,86 @@
+# Composer
+/vendor/
+composer.lock
+composer.phar
+
+# PHPUnit
+/.phpunit.result.cache
+/.phpunit.cache/
+phpunit.xml
+.phpunit-watcher.yml
+.clover.xml
+.coverage/
+.htmlcov/
+build/
+tests/coverage/
+
+# IDE
+/.idea/
+/.vscode/
+/.project
+/.settings/
+*.sublime-*
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# PHP
+*.log
+*.cache
+*.pid
+*.prof
+error_log
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Laravel specific
+/public/hot
+/public/storage
+/storage/*.key
+/.env
+/.env.backup
+/.env.production
+/.env.local
+/.env.*.local
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# Package build
+/dist
+/build
+*.tar.gz
+*.zip
+
+# Tests
+/tests/_output/
+/tests/_support/_generated/
+/tests/_data/*.sqlite
+/.php_cs.cache
+/.php_cs
+.php-cs-fixer.cache
+
+# Coverage reports
+/coverage/
+/reports/
+/tests-reports/
+
+# Logs
+*.log
+storage/logs/*
+!storage/logs/.gitignore
